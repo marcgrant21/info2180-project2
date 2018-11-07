@@ -180,7 +180,6 @@ function main() {
                 this.className = "puzzlepiece movablepiece";
             }
         });
-
         p_pieces[i].addEventListener("mouseleave", function() {
             this.className = "puzzlepiece";
         });
